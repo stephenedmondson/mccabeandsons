@@ -6191,7 +6191,7 @@ a.text-blue:hover, a.text-blue:focus {
     text-decoration: none; }
 
 .hero-bg {
-  background: url("/images/bg-header.jpg") no-repeat center;
+  background: url("../images/bg-header.jpg") no-repeat center;
   background-size: cover;
   height: 400px; }
   .hero-bg .svg {
