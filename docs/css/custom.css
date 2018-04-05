@@ -6190,9 +6190,16 @@ a.text-blue:hover, a.text-blue:focus {
     opacity: .5;
     text-decoration: none; }
 
-.bg-header {
+.hero-bg {
   background: url("/images/bg-header.jpg") no-repeat center;
-  background-size: cover; }
+  background-size: cover;
+  height: 400px; }
+  .hero-bg .svg {
+    position: relative;
+    bottom: -77%; }
+
+.section-products p {
+  color: #838CA1; }
 
 .product-device {
   position: absolute;
@@ -6221,6 +6228,18 @@ a.text-blue:hover, a.text-blue:focus {
   left: 5%;
   background-color: #e5e5e5; }
 
+.bg-history {
+  background-color: #547BE0; }
+
+.history-pic {
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.5); }
+
+.svg {
+  height: 200px; }
+
+.bg-white {
+  background-color: white; }
+
 /*
  * Extra utilities
  */
@@ -6247,11 +6266,5 @@ a.text-blue:hover, a.text-blue:focus {
 .overflow-hidden {
   overflow: hidden; }
 
-.hero-section {
-  height: 750px; }
-
 .display-title {
   color: #777878; }
-
-.section-products p {
-  color: #838CA1; }
