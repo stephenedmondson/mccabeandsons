@@ -89,6 +89,23 @@ $theme-colors: (
   }
 }
 
+//------ Footer ----------//
+.footer {
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: #547BE0;
+  }
+  background-color: #2A4FA4;
+  color: white;
+}
+.footer-bg {
+  height: 100px;
+  background: url("../images/bg-footer.jpg") no-repeat center;
+  background-size: cover;
+}
 
 //------ Hero Section ----------//
 .hero-bg {
@@ -136,7 +153,9 @@ $theme-colors: (
 }
 
 //------ History Section ----------//
-
+.section-history, .section-history .display-title {
+  color: white;
+}
 .bg-history {
   background-color: #547BE0;
 }

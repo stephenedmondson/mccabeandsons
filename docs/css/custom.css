@@ -6190,6 +6190,20 @@ a.text-blue:hover, a.text-blue:focus {
     opacity: .5;
     text-decoration: none; }
 
+.footer {
+  background-color: #2A4FA4;
+  color: white; }
+  .footer a {
+    color: white;
+    text-decoration: underline; }
+  .footer a:hover {
+    color: #547BE0; }
+
+.footer-bg {
+  height: 100px;
+  background: url("../images/bg-footer.jpg") no-repeat center;
+  background-size: cover; }
+
 .hero-bg {
   background: url("../images/bg-header.jpg") no-repeat center;
   background-size: cover;
@@ -6227,6 +6241,9 @@ a.text-blue:hover, a.text-blue:focus {
   bottom: 0;
   left: 5%;
   background-color: #e5e5e5; }
+
+.section-history, .section-history .display-title {
+  color: white; }
 
 .bg-history {
   background-color: #547BE0; }
