@@ -68,7 +68,16 @@ $theme-colors: (
   }
 }
 
-
+.btn-outline-secondary {
+  border-radius: 100px;
+  border-color: #6882BE;
+}
+.btn-outline-secondary:hover {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  opacity: 1;
+}
 
 .container {
   max-width: 960px;

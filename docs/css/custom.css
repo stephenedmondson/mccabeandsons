@@ -6177,6 +6177,16 @@ a.text-blue:hover, a.text-blue:focus {
   .btn-gradient:not(:disabled):not(.disabled):active, .btn-gradient:not(:disabled):not(.disabled).active {
     background-image: none; }
 
+.btn-outline-secondary {
+  border-radius: 100px;
+  border-color: #6882BE; }
+
+.btn-outline-secondary:hover {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  opacity: 1; }
+
 .container {
   max-width: 960px; }
 
