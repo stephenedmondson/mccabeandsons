@@ -222,6 +222,18 @@ $theme-colors: (
   }
 }
 
+@media (min-width: 1500px) {
+  .hero-bg {
+    .svg {
+      bottom: -73%;
+    }
+    height: 520px
+  }
+  .svg {
+    height: 400px;
+  }
+}
+
 .overflow-hidden {
   overflow: hidden;
 }

@@ -6295,6 +6295,14 @@ a.text-blue:hover, a.text-blue:focus {
     position: relative;
     bottom: -82%; } }
 
+@media (min-width: 1500px) {
+  .hero-bg {
+    height: 520px; }
+    .hero-bg .svg {
+      bottom: -73%; }
+  .svg {
+    height: 400px; } }
+
 .overflow-hidden {
   overflow: hidden; }
 
