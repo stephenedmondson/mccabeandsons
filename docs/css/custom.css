@@ -6210,14 +6210,14 @@ a.text-blue:hover, a.text-blue:focus {
     color: #547BE0; }
 
 .footer-bg {
-  height: 100px;
+  height: 140px;
   background: url("../images/bg-footer.jpg") no-repeat center;
   background-size: cover; }
 
 .hero-bg {
   background: url("../images/bg-header.jpg") no-repeat center;
   background-size: cover;
-  height: 400px; }
+  height: 420px; }
   .hero-bg .svg {
     position: relative;
     bottom: -77%; }
@@ -6289,6 +6289,11 @@ a.text-blue:hover, a.text-blue:focus {
     -ms-flex: 1;
     -webkit-box-flex: 1;
     flex: 1; } }
+
+@media (max-width: 768px) {
+  .hero-bg .svg {
+    position: relative;
+    bottom: -82%; } }
 
 .overflow-hidden {
   overflow: hidden; }

@@ -111,7 +111,7 @@ $theme-colors: (
   color: white;
 }
 .footer-bg {
-  height: 100px;
+  height: 140px;
   background: url("../images/bg-footer.jpg") no-repeat center;
   background-size: cover;
 }
@@ -124,7 +124,7 @@ $theme-colors: (
   }
   background: url("../images/bg-header.jpg") no-repeat center;
   background-size: cover;
-  height: 400px
+  height: 420px
 }
 
 //------ Products Section ----------//
@@ -212,10 +212,19 @@ $theme-colors: (
   }
 }
 
+
+@media (max-width: 768px) {
+  .hero-bg {
+    .svg {
+      position: relative;
+      bottom: -82%;
+    }
+  }
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
-
 
 .display-title {
   color: #777878;
