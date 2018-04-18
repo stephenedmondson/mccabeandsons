@@ -79,10 +79,13 @@ $theme-colors: (
   opacity: 1;
 }
 
-.container {
-  max-width: 960px;
+.container.white {
+  background-color: white;
 }
 
+body {
+  background-color: #f3f3f3;
+}
 /*
  * Custom translucent site header
  */
@@ -240,4 +243,5 @@ $theme-colors: (
 
 .display-title {
   color: #777878;
+  font-weight: bold;
 }
