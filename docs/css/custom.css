@@ -6208,6 +6208,10 @@ body {
       opacity: .5;
       text-decoration: none; }
 
+.pre-header {
+  background-color: #173377;
+  color: white; }
+
 .footer {
   background-color: #2A4FA4;
   color: white; }
