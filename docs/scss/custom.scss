@@ -81,6 +81,8 @@ $theme-colors: (
 
 .container.white {
   background-color: white;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 body {
@@ -91,6 +93,8 @@ body {
  */
 
 .site-header {
+  padding-left: 15px;
+  padding-right: 15px;
   a {
     color: white;
     transition: ease-in-out color .15s;
@@ -103,6 +107,10 @@ body {
 
 //------ Footer ----------//
 .footer {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   a {
     color: white;
     text-decoration: underline;
@@ -242,6 +250,6 @@ body {
 }
 
 .display-title {
-  color: #777878;
+  color: #cccccc;
   font-weight: bold;
 }

@@ -6188,7 +6188,9 @@ a.text-blue:hover, a.text-blue:focus {
   opacity: 1; }
 
 .container.white {
-  background-color: white; }
+  background-color: white;
+  padding-left: 0;
+  padding-right: 0; }
 
 body {
   background-color: #f3f3f3; }
@@ -6196,16 +6198,22 @@ body {
 /*
  * Custom translucent site header
  */
-.site-header a {
-  color: white;
-  transition: ease-in-out color .15s; }
-  .site-header a:hover {
-    opacity: .5;
-    text-decoration: none; }
+.site-header {
+  padding-left: 15px;
+  padding-right: 15px; }
+  .site-header a {
+    color: white;
+    transition: ease-in-out color .15s; }
+    .site-header a:hover {
+      opacity: .5;
+      text-decoration: none; }
 
 .footer {
   background-color: #2A4FA4;
   color: white; }
+  .footer .container {
+    padding-left: 30px;
+    padding-right: 30px; }
   .footer a {
     color: white;
     text-decoration: underline; }
@@ -6310,5 +6318,5 @@ body {
   overflow: hidden; }
 
 .display-title {
-  color: #777878;
+  color: #cccccc;
   font-weight: bold; }
